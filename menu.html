@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee House Catalog</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg" />
+  </head>
+  <body>
+    <div class="page-container">
+      <header>
+        <a href="index.html" class="header-logo">
+          <img
+            class="logo-light"
+            src="assets/images/logo.svg"
+            alt="Coffee House"
+          />
+          <img
+            class="logo-dark"
+            src="assets/images/logo-dark.svg"
+            alt="Coffee House"
+          />
+        </a>
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html#favorites">Favorite coffee</a>
+            </li>
+            <li>
+              <a href="index.html#about">About</a>
+            </li>
+            <li>
+              <a href="index.html#mobile-app">Mobile app</a>
+            </li>
+            <li>
+              <a href="#contacts">Contact us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header-actions">
+          <div class="theme-switcher">
+            <button type="button" class="theme-light" aria-label="Light theme">
+              <img src="assets/icons/Sun.svg" alt="" />
+            </button>
+
+            <button type="button" class="theme-dark" aria-label="Dark theme">
+              <img src="assets/icons/Moon.svg" alt="" />
+            </button>
+          </div>
+          <a class="menu-link" href="menu.html">
+            <span>Menu</span>
+            <img src="assets/icons/coffee-cup.svg" alt="" />
+          </a>
+          <button class="burger-button" type="button" aria-label="Open menu">
+            <img src="assets/icons/burger.svg" alt="" />
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <section id="menu" class="menu-section">
+          <h1>
+            Behind each of our cups hides an <span>amazing surprise</span>
+          </h1>
+
+          <div class="menu-tabs">
+            <button type="button" class="menu-tab active">
+              <span class="menu-tab-icon" aria-hidden="true">☕</span>
+              <span>Coffee</span>
+            </button>
+
+            <button type="button" class="menu-tab">
+              <span class="menu-tab-icon" aria-hidden="true">🫖</span>
+              <span>Tea</span>
+            </button>
+
+            <button type="button" class="menu-tab">
+              <span class="menu-tab-icon" aria-hidden="true">🍰</span>
+              <span>Dessert</span>
+            </button>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-card">
+              <img src="assets/images/coffee-1.png" alt="Irish coffee" />
+
+              <div class="menu-card-description">
+                <h2>Irish coffee</h2>
+
+                <p>
+                  Fragrant black coffee with Jameson Irish whiskey and whipped
+                  milk.
+                </p>
+
+                <p class="menu-card-price">$7.00</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="assets/images/coffee-2.png" alt="Kahlua coffee" />
+
+              <div class="menu-card-description">
+                <h2>Kahlua coffee</h2>
+
+                <p>
+                  Classic coffee with milk and Kahlua liqueur under a cap of
+                  frothed milk
+                </p>
+
+                <p class="menu-card-price">$7.00</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="assets/images/coffee-3.png" alt="Honey raf" />
+
+              <div class="menu-card-description">
+                <h2>Honey raf</h2>
+
+                <p>Espresso with frothed milk, cream and aromatic honey</p>
+
+                <p class="menu-card-price">$5.50</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="assets/images/coffee-4.png" alt="Ice cappuccino" />
+
+              <div class="menu-card-description">
+                <h2>Ice cappuccino</h2>
+
+                <p>
+                  Cappuccino with soft thick foam in summer version with ice
+                </p>
+
+                <p class="menu-card-price">$5.00</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="assets/images/coffee-5.png" alt="Espresso" />
+
+              <div class="menu-card-description">
+                <h2>Espresso</h2>
+
+                <p>Classic black coffee</p>
+
+                <p class="menu-card-price">$4.50</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="assets/images/coffee-6.png" alt="Latte" />
+
+              <div class="menu-card-description">
+                <h2>Latte</h2>
+
+                <p>
+                  Espresso coffee with the addition of steamed milk and dense
+                  milk foam
+                </p>
+
+                <p class="menu-card-price">$5.50</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="assets/images/coffee-7.png" alt="Latte macchiato" />
+
+              <div class="menu-card-description">
+                <h2>Latte macchiato</h2>
+
+                <p>Espresso with frothed milk and chocolate</p>
+
+                <p class="menu-card-price">$5.50</p>
+              </div>
+            </article>
+
+            <article class="menu-card">
+              <img src="assets/images/coffee-8.png" alt="Coffee with cognac" />
+
+              <div class="menu-card-description">
+                <h2>Coffee with cognac</h2>
+
+                <p>Fragrant black coffee with cognac and whipped cream</p>
+
+                <p class="menu-card-price">$6.50</p>
+              </div>
+            </article>
+          </div>
+
+          <button
+            class="menu-load-more"
+            type="button"
+            aria-label="Show more products"
+          >
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+            >
+              <path
+                d="M20 11A8 8 0 1 0 18 17"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <path
+                d="M20 4V11H13"
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </section>
+      </main>
+
+      <footer id="contacts">
+        <div class="footer-content">
+          <div class="footer-offer">
+            <h2>
+              Sip, Savor, Smile.<br />
+              <span>It’s coffee time!</span>
+            </h2>
+            <div class="footer-socials">
+              <a href="https://twitter.com" aria-label="Twitter">
+                <img src="assets/icons/twitter.svg" alt="" />
+              </a>
+
+              <a href="https://instagram.com" aria-label="Instagram">
+                <img src="assets/icons/instagram.svg" alt="" />
+              </a>
+
+              <a href="https://facebook.com" aria-label="Facebook">
+                <img src="assets/icons/facebook.svg" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="footer-info">
+            <h3>Contact us</h3>
+            <div class="footer-contacts">
+              <a
+                href="https://maps.google.com/?q=8558+Green+Rd+LA"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="assets/icons/pin-alt.svg" alt="" />
+                <span>8558 Green Rd., LA</span>
+              </a>
+
+              <a href="tel:+16035550123">
+                <img src="assets/icons/phone.svg" alt="" />
+                <span>+1 (603) 555-0123</span>
+              </a>
+
+              <p>
+                <img src="assets/icons/clock.svg" alt="" />
+                <span>Mon–Sat: 9:00–23:00</span>
+              </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="./js/theme.js"></script>
+  </body>
+</html>
