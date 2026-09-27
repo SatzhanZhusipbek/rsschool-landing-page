@@ -1042,10 +1042,6 @@ html[data-theme="dark"] .menu-tab:not(.active):hover {
   }
 
   .menu-load-more {
-    display: flex;
-  }
-
-  .menu-card:nth-child(n + 5) {
     display: none;
   }
 
@@ -1141,6 +1137,14 @@ html[data-theme="dark"] .menu-tab:not(.active):hover {
   .mobile-nav a img {
     width: 40px;
     height: 40px;
+  }
+
+  .menu-card.is-hidden {
+    display: none;
+  }
+
+  .menu-load-more.is-visible {
+    display: flex;
   }
 }
 
