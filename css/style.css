@@ -1227,10 +1227,6 @@ html[data-theme="dark"] .menu-tab:not(.active):hover {
     max-width: 310px;
     min-height: 506px;
   }
-
-  .menu-card:nth-child(n + 5) {
-    display: none;
-  }
 }
 
 @media (max-width: 380px) {
